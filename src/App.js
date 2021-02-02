@@ -1,12 +1,12 @@
 import React from "react";
 
-import milkteaList from "./components/utils/Products";
+import milkteaList from "./components/utils/MilkteaList";
 import Milktea from "./components/utils/Milktea";
 
 import './App.css';
 
 function App() {
-  const milktea = milkteaList.map(milk_tea => <Milktea   key={milk_tea.id} product={milk_tea}/>)
+  const milktea = milkteaList.map(milk_tea => <Milktea key={milk_tea.id} product={milk_tea}/>)
   return (
     <div className="App">
       <header className="App-header">
