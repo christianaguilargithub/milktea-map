@@ -1,11 +1,11 @@
 import React from "react";
 
-function Milktea (props) {
+function Milktea(props) {
     return(
         <div>
-            <h1>{props.milkteaList.name}</h1>
-            <h6>{props.milkteaList.price.toLocaleString("en-PH",{style: "currency",currency: "PHP"})}
-            </h6><p>{props.milkteaList.description}</p>
+            <h1>{props.product.name}</h1>
+            <h4>{props.product.price.toLocaleString("en-PH",{style: "currency",currency: "PHP"})}
+            </h4><p>{props.product.description}</p>
         </div>
     )
 }

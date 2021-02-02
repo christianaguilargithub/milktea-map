@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Kumusta React?</h1>
+        <h1>Milk Tea House</h1>
         {milktea}
       </header>
     </div>
